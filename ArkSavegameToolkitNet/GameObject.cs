@@ -222,7 +222,7 @@ namespace ArkSavegameToolkitNet
         private static ArkName _female = ArkName.Create("PlayerPawnTest_Female_C", 0);
         private static ArkName _droppedItem = ArkName.Create("DroppedItemGenericLowQuality_C", 0);
 
-        internal static readonly ArkNameTree _dependencies = new ArkNameTree
+        public static readonly ArkNameTree _dependencies = new ArkNameTree
         {
             { _dinoId1, null },
             { _tamerString, null },

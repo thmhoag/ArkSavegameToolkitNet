@@ -1,7 +1,6 @@
 ﻿using ArkSavegameToolkitNet.Domain;
 using System;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading;
 
 namespace ArkSavegameToolkitNet.TestConsoleApp

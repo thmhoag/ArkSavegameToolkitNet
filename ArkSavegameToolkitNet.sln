@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkSavegameToolkitNet", "ArkSavegameToolkitNet\ArkSavegameToolkitNet.csproj", "{2B78ED8E-A311-49BD-B4AC-8787F829AD17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkSavegameToolkitNet.Domain", "ArkSavegameToolkitNet.Domain\ArkSavegameToolkitNet.Domain.csproj", "{DBF15752-CB8A-40D8-8DA6-2597538E86D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkSavegameToolkitNet.TestConsoleApp", "ArkSavegameToolkitNet.TestConsoleApp\ArkSavegameToolkitNet.TestConsoleApp.csproj", "{4378FF02-D88C-4CBA-A6C2-2935D4BDA23B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkSavegameToolkitNet", "ArkSavegameToolkitNet\ArkSavegameToolkitNet.csproj", "{B79DE70D-D994-4A4F-A078-8BE2B82EE252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkSavegameToolkitNet.Domain", "ArkSavegameToolkitNet.Domain\ArkSavegameToolkitNet.Domain.csproj", "{DBF15752-CB8A-40D8-8DA6-2597538E86D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkSavegameToolkitNet.TestConsoleApp", "ArkSavegameToolkitNet.TestConsoleApp\ArkSavegameToolkitNet.TestConsoleApp.csproj", "{97DB8E21-C93F-4140-86BC-13A7714FD018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2B78ED8E-A311-49BD-B4AC-8787F829AD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B78ED8E-A311-49BD-B4AC-8787F829AD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B78ED8E-A311-49BD-B4AC-8787F829AD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B78ED8E-A311-49BD-B4AC-8787F829AD17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4378FF02-D88C-4CBA-A6C2-2935D4BDA23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4378FF02-D88C-4CBA-A6C2-2935D4BDA23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4378FF02-D88C-4CBA-A6C2-2935D4BDA23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4378FF02-D88C-4CBA-A6C2-2935D4BDA23B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBF15752-CB8A-40D8-8DA6-2597538E86D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DBF15752-CB8A-40D8-8DA6-2597538E86D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF15752-CB8A-40D8-8DA6-2597538E86D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBF15752-CB8A-40D8-8DA6-2597538E86D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79DE70D-D994-4A4F-A078-8BE2B82EE252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79DE70D-D994-4A4F-A078-8BE2B82EE252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79DE70D-D994-4A4F-A078-8BE2B82EE252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79DE70D-D994-4A4F-A078-8BE2B82EE252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97DB8E21-C93F-4140-86BC-13A7714FD018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DB8E21-C93F-4140-86BC-13A7714FD018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DB8E21-C93F-4140-86BC-13A7714FD018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DB8E21-C93F-4140-86BC-13A7714FD018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B7A7F82-47AE-48A9-A761-31B72B5ED50A}
 	EndGlobalSection
 EndGlobal
